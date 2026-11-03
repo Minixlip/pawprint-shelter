@@ -1,6 +1,6 @@
 // name,species - dog | cat | rabbit | guinnepig, age number, weight number
 
-interface ShelterAnimal {
+export interface ShelterAnimal {
   name: string;
   species: 'dog' | 'cat' | 'rabbit' | 'guinea pig';
   ageYears: number;
